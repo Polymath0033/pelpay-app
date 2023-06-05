@@ -13,6 +13,8 @@ import img2 from "../assets/image2.png";
 import img4 from "../assets/image4.png";
 import PelpayDiagram from "../assets/PelPay_Diagram.png";
 import checkmark from "../assets/Checkmark.svg";
+import AtmCard from "../assets/Classic.png";
+
 const Home = () => {
   return (
     <>
@@ -161,6 +163,23 @@ const Home = () => {
             <p>{paragraph}</p>
           </div>
         ))}
+      </article>
+      <article className={classes.card_div}>
+        <div className={classes.img_}>
+          <img src={AtmCard} alt="ATM Card" className={classes.atm} />
+        </div>
+        <div>
+          <h1>Powering growth for African’s Unicorns</h1>
+          <p>
+            Pelpay is a growth engine for a new generation of innovative,
+            forward-looking organizations operating in Africa.
+            <br /> We hope that regardless of the transaction you are trying to
+            perform, whether you’re stranded in the urban city setting or
+            chilling with friends and want to pay bills or you reside in an
+            extremely remote part of the continent in need of a banking
+            experience, know that we see you and we’re building for you.
+          </p>
+        </div>
       </article>
     </>
   );

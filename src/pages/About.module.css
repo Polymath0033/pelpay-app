@@ -1,0 +1,9 @@
+.hero {
+  text-align: center;
+  background-image: url("../assets/BG.png");
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
