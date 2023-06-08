@@ -2,7 +2,7 @@ import hero from "../assets/Image with shapes.svg";
 import classes from "./Developers.module.css";
 import analytics from "../assets/Analytics Graphic.svg";
 import service_img from "../assets/Service03.png";
-import image from "../assets/image.png";
+import image from "../assets/image_.png";
 import secure_image from "../assets/secured payment.png";
 const Developers = () => {
   return (

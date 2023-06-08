@@ -52,6 +52,11 @@ const Header = () => {
       <div className={classes.buttons}>
         <button>Login</button>
         <button>Sign up</button>
+        <div className={classes.tab}>
+          {[1, 2, 3].map((val) => (
+            <div key={val}></div>
+          ))}
+        </div>
       </div>
     </header>
   );

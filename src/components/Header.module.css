@@ -50,9 +50,22 @@ a.active {
   color: #009f49;
 }
 
-.buttons button:last-child {
+.buttons button:last-of-type {
   background-color: #009f49;
   color: #fff;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: auto;
+}
+
+.tab div {
+  background-color: #009f49;
+  height: 3px;
+  width: 35px;
 }
 
 @media screen and (max-width: 900px) {
@@ -77,6 +90,9 @@ a.active {
 
 @media screen and (max-width: 750px) {
   .header ul {
+    display: none;
+  }
+  .buttons button {
     display: none;
   }
 }
