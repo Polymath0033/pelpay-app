@@ -6,7 +6,7 @@ import search_blue from "../assets/search_blue.svg";
 import hand_green from "../assets/hand_green.svg";
 import calendar_icon from "../assets/calendar_green.svg";
 import hand_blue from "../assets/hand_blue.svg";
-import hero_img from "../assets/Image.png";
+// import hero_img from "../assets/Image.png";
 const Features = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const Features = () => {
           help businesses in Africa digitize their payment process with ease.
         </p>
       </div>
-      <img src={hero_img} alt="hero image" className={classes.hero_image} />
+      {/* <img src={hero_img} alt="hero image" className={classes.hero_image} /> */}
 
       <section className={classes.section}>
         <h2>Features and Services</h2>
