@@ -1,85 +1,85 @@
 .aside {
-  position: fixed;
-  width: 100%;
-  z-index: 10000000000000000000000000000000000000;
-  height: 100vh;
-  background-color: #fff;
-  overflow: hidden;
-  left: 0;
-  top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10000000000000000000000000000000000000;
+    height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+    left: 0;
+    top: 0;
 }
 
 .top {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
 }
 
 .top img {
-  width: 120px;
+    width: 120px;
 }
 
 .top button {
-  all: unset;
-  cursor: pointer;
-  color: #121a26;
-  font-size: 2rem;
+    all: unset;
+    cursor: pointer;
+    color: #121a26;
+    font-size: 2rem;
 }
 
 .list {
-  list-style: none;
-  display: flex !important;
-  justify-content: space-between;
-  gap: 1.5rem;
-  flex-direction: column;
-  padding: 2rem;
+    list-style: none;
+    display: flex !important;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-direction: column;
+    padding: 2rem;
 }
 
 .list a {
-  all: unset;
-  cursor: pointer;
-  color: #333333;
-  font-weight: 600;
-  font-size: 16px;
+    all: unset;
+    cursor: pointer;
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .list li {
-  border-width: 1px;
-  border-style: none none solid none;
-  border-color: #697883;
-  padding-bottom: 1rem;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #697883;
+    padding-bottom: 1rem;
 }
 
 .buttons {
-  display: flex;
-  gap: 1.5rem;
-  padding: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
 }
 
 .buttons button {
-  all: unset;
-  cursor: pointer;
-  padding: 0.8rem 1.4rem;
-  font-weight: 700;
-  border-radius: 5px;
+    all: unset;
+    cursor: pointer;
+    padding: 0.8rem 1.4rem;
+    font-weight: 700;
+    border-radius: 5px;
 }
 
 .buttons button:first-child {
-  color: #009f49;
+    color: #009f49;
 }
 
 a.active {
-  color: #009f49;
+    color: #009f49;
 }
 
 .buttons button:last-of-type {
-  background-color: #009f49;
-  color: #fff;
+    background-color: #009f49;
+    color: #fff;
 }
 
 @media screen and (min-width: 750px) {
-  .aside {
-    display: none;
-  }
+    .aside {
+        display: none;
+    }
 }
