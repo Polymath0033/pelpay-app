@@ -1,4 +1,4 @@
-import hero_image from "../assets/Image.png";
+//import hero_image from "../assets/Image.png";
 import classes from "./Features.module.css";
 import search_yellow from "../assets/search_yellow.svg";
 import search_blue from "../assets/search_blue.svg";
@@ -17,7 +17,7 @@ const Features = () => {
           help businesses in Africa digitize their payment process with ease.
         </p>
       </div>
-      <img src={hero_image} alt="hero image" className={classes.hero_image} />
+      {/* <img src={hero_image} alt="hero image" className={classes.hero_image} /> */}
 
       <section className={classes.section}>
         <h2>Features and Services</h2>
