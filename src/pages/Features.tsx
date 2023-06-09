@@ -1,12 +1,12 @@
 //import hero_image from "../assets/Image.png";
-import hero_img from "../assets/Image.png";
+
 import classes from "./Features.module.css";
 import search_yellow from "../assets/search_yellow.svg";
 import search_blue from "../assets/search_blue.svg";
 import hand_green from "../assets/hand_green.svg";
 import calendar_icon from "../assets/calendar_green.svg";
 import hand_blue from "../assets/hand_blue.svg";
-
+import hero_img from "../assets/Image.png";
 const Features = () => {
   return (
     <>
