@@ -64,7 +64,7 @@ const Header = () => {
           ))}
         </div>
       </div>
-      {tab && <Aside tab={tab} toggleTab={toggleTab} />}
+      {tab && <Aside toggleTab={toggleTab} />}
     </header>
   );
 };
